@@ -14,20 +14,35 @@
   
   .default {
     background-color: $third-color;
+    &:hover {
+      background: lighten($third-color, 15%)
+    }
   }
   
   .error {
     background-color: #e4757a;
+    &:hover {
+      background: lighten(#e4757a, 15%);
+    }
   }
   
   .info {
     background-color: $info-color;
+    &:hover {
+      background: lighten($info-color, 15%);
+    }
   }
   
   .success {
     background-color: #63cc82;
+    &:hover {
+      background: lighten(#63cc82, 15%);
+    }
   }
   
   .warning {
     background-color: $warning-color;
+    &:hover {
+      background: lighten($warning-color, 15%);
+    }
   }
